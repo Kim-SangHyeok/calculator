@@ -1,3 +1,4 @@
+// 2025-12-10 202213105 김상혁 오픈소스소프트웨어 과제3
 #include <stdio.h>
 #include <stdlib.h>
 #include "stack.h"
@@ -73,4 +74,5 @@ static void reallocate(Stack * stack)
 	free(stack->contents);
 	stack->contents = tmp;
 }
+
 
