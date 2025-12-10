@@ -1,3 +1,4 @@
+// 2025-12-10 202213105 김상혁 오픈소스소프트웨어 과제3
 #ifndef STACK_H
 #define STACK_H
 #include <stdbool.h> 
@@ -18,4 +19,5 @@ Item pop(Stack *s);
 Item peek(Stack *s);
 static void stack_underflow(void);
 static void reallocate(Stack * stack);
+
 #endif
